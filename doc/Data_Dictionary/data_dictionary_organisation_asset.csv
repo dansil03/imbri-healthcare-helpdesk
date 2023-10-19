@@ -2,5 +2,5 @@ Field Name,Description,Type,Specifications,Default,Required,Unique,Key
 id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
 organisation_id,Foreign key referencing the organisation,Character,9 numeric characters,,Yes,No,FK
 asset_id,Foreign key referencing the asset,Character,9 numeric characters,,Yes,No,FK
-relation_type,Type of the relation (Healthcare institution - Vendor / Healthcare institution - Imbri), Character, Variable lenght, Yes, No, 
+relation_type,Type of the relation (Healthcare institution - Vendor / Healthcare institution - Imbri),Character,Variable lenght,Yes,No, 
 
