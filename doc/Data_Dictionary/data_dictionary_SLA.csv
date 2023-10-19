@@ -1,0 +1,4 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique,Key
+id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
+start_date, Start date of the SLA, date, MM/DD/YYYY,,Yes,No,
+end_date, End date of the SLA, date, MM/DD/YYYY,,Yes,No,
