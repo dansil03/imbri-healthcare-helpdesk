@@ -1,0 +1,6 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique,Key
+id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
+parent_id,Foreign key referencing the parent,Character,9 numeric characters,,No,No,FK
+asset_type,asset_type attribute of the entity,Character,variable length,,No,No,
+asset_name,asset_name attribute of the entity,Character,variable length,,No,No,
+asset_description,asset_description attribute of the entity,Character,variable length,,No,No,
