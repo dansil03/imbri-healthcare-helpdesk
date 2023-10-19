@@ -1,0 +1,5 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique,Key
+id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
+organisation_id,Foreign key referencing the organisation,Character,9 numeric characters,,Yes,No,FK
+asset_id,Foreign key referencing the asset,Character,9 numeric characters,,Yes,No,FK
+sla_id,Foreign key referencing the sla,Character,9 numeric characters,,Yes,No,FK
