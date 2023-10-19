@@ -1,0 +1,11 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique,Key
+id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
+workspace_id,Foreign key referencing the workspace,Character,9 numeric characters,,Yes,No,FK
+organisation_type,type of the organisation (Healthcare institution, Vendor, Imbri Healthcare) ,Character,variable length,,Yes,No,
+organisation_name,Name of the organisation ,Character,variable length,,Yes,No,
+parent_id,Foreign key referencing to the parent organisation ,Character,9 numeric characters,,No,No,FK
+lower_organisation_name,lower_organisation_name attribute of the entity,Character,variable length,,Yes,No,
+created_date,Timestamp indicating when the record was created,Timestamp,MM/DD/YYYY HH:MM:SS,,Yes,No,
+created_by,Foreign key to the user who created the organisation,Character,9 numeric characters,,Yes,No,FK
+updated_date,Timestamp indicating when the record was updated,Timestamp,MM/DD/YYYY HH:MM:SS,,No,No,
+updated_by,Foreign key to the user who updated the organisation,Character,9 numeric characters,,No,No,FK
