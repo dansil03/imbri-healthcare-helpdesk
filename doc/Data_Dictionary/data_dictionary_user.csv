@@ -1,12 +1,13 @@
-Field Name;Description;Type;Specifications;Default;Required;Unique;Key
-id;Unique User identification number;Character;9 numeric characters;;Yes;Yes;PK
-workspace_id;Identifier for the associated workspace;Character;9 numeric characters;;Yes ;No;FK
-created_date;Time of creation ;Timestamp;MM/DD/YYYY HH:MM:SS;;Yes;No;
-created_by;user_id of the creator ;Character;9 numeric characters;;Yes;No;FK
-updated_date;Time of user profile update;Timestamp;MM/DD/YYYY HH:MM:SS;;No;No;
-updated_by;user_id of the user who updated the profile ;Character;9 numeric characters;;No;No;FK
-user_name;Assigned username ;Character;variable length;;No;No;
-first_name;First name of the user ;Character;variable length;;No;No;
-lower_first_name;lower_first_name attribute of the entity;Character;variable length;;No;No;
-last_name;Last name of the user ;Character;variable length;;No;No;
-lower_last_name;lower_last_name attribute of the entity;Character;variable length;;No;No;
+Field Name,Description,Type,Specifications,Default,Required,Unique,Key
+id,Unique User identification number,Character,9 numeric characters,,Yes,Yes,PK
+workspace_id,Identifier for the associated workspace,Character,9 numeric characters,,Yes ,No,FK
+created_date,Time of creation ,Timestamp,MM/DD/YYYY HH:MM:SS,,Yes,No,
+created_by,user_id of the creator ,Character,9 numeric characters,,Yes,No,FK
+updated_date,Time of user profile update,Timestamp,MM/DD/YYYY HH:MM:SS,,No,No,
+updated_by,user_id of the user who updated the profile ,Character,9 numeric characters,,No,No,FK
+user_name,Assigned username ,Character,variable length,,No,No,
+first_name,First name of the user ,Character,variable length,,No,No,
+lower_first_name,lower_first_name attribute of the entity,Character,variable length,,No,No,
+last_name,Last name of the user ,Character,variable length,,No,No,
+lower_last_name,lower_last_name attribute of the entity,Character,variable length,,No,No,
+
