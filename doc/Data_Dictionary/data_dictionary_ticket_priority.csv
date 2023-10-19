@@ -1,0 +1,4 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique,Key
+id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
+priority_name,Name of the priority,Character, Variable length,,Yes,No, 
+Description,Description of the priority,Character, Variable length,,Yes,No,

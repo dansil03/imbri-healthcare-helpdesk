@@ -1,0 +1,3 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique,Key
+id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
+Description,Description of the resolution,Character, Variable length,,Yes,No,
