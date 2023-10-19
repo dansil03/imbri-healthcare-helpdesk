@@ -13,9 +13,9 @@ priority,priority level of the ticket,Character,variable length,,No,No,FK
 resolution,resolution description of the ticket ,Character,variable length,,No,No,FK
 ticket_status,status attribute of the ticket,Character,variable length,,Yes,No,FK
 created,Timestamp indicating when the record was created,Timestamp,MM/DD/YYYY HH:MM:SS,,Yes,No,
-created_by,Foreign key to the user who created the ticket ,Character,variable length,,Yes,No,FK
+created_by,Foreign key to the user who created the ticket ,Character,9 numeric characters,,Yes,No,FK
 updated,Timestamp indicating when the record was updated,Timestamp,MM/DD/YYYY HH:MM:SS,,No,No,
-updated_by,Foreign key to the user who updated the ticket ,Character,variable length,,No,No,FK
+updated_by,Foreign key to the user who updated the ticket ,Character,9 numeric characters,,No,No,FK
 due_date,Date indicating when the ticket should be resolved ,Date,MM/DD/YYYY,,Yes,No,
 resolution_date,Timestamp indicating when the ticket was actually resolved ,Timestamp,MM/DD/YYYY HH:MM:SS,,No,No,
 time_estimate,Estimated time for resolving the ticket,Character,Variable length ,,Yes,No,
