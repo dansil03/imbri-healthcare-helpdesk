@@ -1,0 +1,7 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique,Key
+id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
+workspace_id,Foreign key referencing the workspace,Character,9 numeric characters,,Yes,No,FK
+synch_start,Time of the synchronisation start,Timestamp,MM/DD/YYYY HH:MM:SS,,Yes,No, 
+synch_end,Time of the synchronisation end,Timestamp,MM/DD/YYYY HH:MM:SS,,No,No,
+synch_status,Current status of the synchronisation, Character,Variable length,,Yes,No, 
+synch_parameters,Parameters (rules) that apply to the synchronisation,Character,Variable length,,Yes,No,  
