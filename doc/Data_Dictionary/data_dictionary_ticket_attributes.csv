@@ -1,0 +1,5 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique,Key
+id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
+ticket_id,Foreign key referencing the organisation,Character,9 numeric characters,,Yes,No,FK
+attribute_name,Name of the ticket attribute,Character,variable length,,Yes,No,
+attribute_value,Value of the ticket attribute value,Character,variable length,,Yes,No,
