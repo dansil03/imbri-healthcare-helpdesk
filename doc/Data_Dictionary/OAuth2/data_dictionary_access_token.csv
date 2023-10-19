@@ -1,0 +1,5 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique,Key
+id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
+access_token,A token granted to the client; allowing it access to the user's resources as permitted by their scopes,Character,Variable length,,Yes,Yes,
+expires,The timestamp or duration after which the given access token becomes invalid,timestamp,MM/DD/YYYY HH:MM:SS,,Yes,No, 
+client_id,The identifier of the OAuth2 client application to which the access token was issued,Character,Variable length,,Yes,No,FK

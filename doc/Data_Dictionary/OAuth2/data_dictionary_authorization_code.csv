@@ -1,0 +1,7 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique,Key
+id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
+client_id,A unique identifier representing the OAuth2 client,Character,9 numeric characters,,Yes,No,
+redirect_uri,The URL to which the user is redirected after granting authorization and where the authorization code is sent,Character,Variable length,,Yes,No, 
+expires,The timestamp after which the given authorization code becomes invalid,timestamp,MM/DD/YYYY HH:MM:SS,,Yes,No,
+id_token,A token that provides information about the authenticated user,Character,Variable length,,Yes,No, 
+

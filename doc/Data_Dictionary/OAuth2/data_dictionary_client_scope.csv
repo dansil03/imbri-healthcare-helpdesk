@@ -1,0 +1,4 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique,Key
+id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
+client_id,A unique identifier representing the OAuth2 client,Character,9 numeric characters,,Yes,No,
+scope_id,A unique identifier representing the scope entity,Character,9 numeric characters,,Yes,No,

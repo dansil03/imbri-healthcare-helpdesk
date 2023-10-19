@@ -1,0 +1,6 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique,Key
+id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
+client_id,A unique identifier representing the OAuth2 client,Character,9 numeric characters,,Yes,No,
+secret,A confidential value used alongside the client_id to authenticate the client application,Character,Variable length,,Yes,Yes,
+redirect_uri,The URL to which the user will be redirected after granting or denying permission in the OAuth2 authorization process,Character,Variable length,,Yes,No, 
+grant_type,Specifies the method the client application uses to request access tokens; such as "authorization_code"; "password"; or "client_credentials",Character,Variable length,,Yes,No, 

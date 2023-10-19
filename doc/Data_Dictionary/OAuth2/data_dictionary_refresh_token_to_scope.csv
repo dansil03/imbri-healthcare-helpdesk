@@ -1,0 +1,3 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique,Key
+scope_id,A unique identifier representing the scope entity,Character,9 numeric characters,,Yes,No,FK
+refresh_token_id,A unique identifier representing the refresh token,Character,9 numeric characters,,Yes,No,FK

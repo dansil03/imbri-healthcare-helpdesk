@@ -1,0 +1,6 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique,Key
+id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
+public_key,The public key used for encryption or for verifying digital signatures from an OAuth2 client,Character,Variable length,,Yes,Yes,
+private_key,The corresponding private key used for decryption or for creating digital signatures,Character,Variable length,,Yes,Yes,
+encryption_algorithm,The specific algorithm (e.g. RSA or ECDSA) used in conjunction with the public and private keys for encryption and decryption,Character,Variable length,,Yes,Yes,
+client_id,A unique identifier representing the OAuth2 client,Character,9 numeric characters,,Yes,No,FK

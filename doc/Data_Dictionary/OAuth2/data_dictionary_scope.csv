@@ -1,0 +1,4 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique,Key
+id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
+scope,A string representing a specific permission or set of permissions that an application can request access to,Character,Variable character,,Yes,No,
+is_default, A boolean indicating whether this scope is granted by default without explicit user approval,boolean,True/False,False,Yes,No,
