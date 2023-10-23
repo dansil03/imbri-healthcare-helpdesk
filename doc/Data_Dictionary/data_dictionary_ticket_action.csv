@@ -1,4 +1,4 @@
-Field Name,Description,Type,Specifications,Default,Required,Unique,Key
+Field Name,Description,Type,Specifications,Default,Required,Unique
 ticket_id,Unique Ticket identification number,UUID,128-bits\36 characters (with dashes),,Yes,Yes 
 author,Name of the author,Character,Variable length,,Yes,No
 action_type,Type of the ticket action,Character,variable length,,No,No
