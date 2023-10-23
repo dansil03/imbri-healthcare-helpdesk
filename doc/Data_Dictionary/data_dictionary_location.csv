@@ -1,0 +1,12 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique
+country_code,ISO code for the country,Character,2 characters (ISO 3166-1 alpha-2),,Yes,No
+postal_code,Postal code for the location,Character,Variable length depends on country,,Yes,No
+place_name,Name of the place or city,Character,Variable length,,Yes,No
+admin_name1,Primary administrative division (e.g. state) name,Character,Variable length,,Yes,No
+admin_code1,Code for the primary administrative division,Character,Variable length,,Yes,No
+admin_name2,Secondary administrative division name,Character,Variable length,,No,No
+admin_code2,Code for the secondary administrative division,Character,Variable length,,No,No
+admin_name3,Tertiary administrative division name,Character,Variable length,,No,No
+admin_code3,Code for the tertiary administrative division,Character,Variable length,,No,No
+latitude,Latitude coordinate for the location,Float,Decimal format (e.g. 40.7128),,Yes,No
+longitude,Longitude coordinate for the location,Float,Decimal format (e.g. -74.0060),,Yes,No
