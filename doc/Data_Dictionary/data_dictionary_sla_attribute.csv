@@ -1,5 +1,4 @@
-Field Name,Description,Type,Specifications,Default,Required,Unique,Key
-id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
-asset_id,Foreign key referencing the sla,Character,9 numeric characters,,Yes,No,FK
-attribute_name,Name of the sla attribute,Character,variable length,,Yes,No,
-attribute_value,Value of the sla attribute value,Character,variable length,,Yes,No,
+Field Name,Description,Type,Specifications,Default,Required,Unique
+sla_id,Unique SLA identification number,UUID,"128-bits, 36 characters (with dashes)",,Yes,Yes
+attribute_name,Name of the SLA attribute,Character,variable length,,Yes,No
+attribute_value,Value of the SLA attribute,Character,variable length,,Yes,No
