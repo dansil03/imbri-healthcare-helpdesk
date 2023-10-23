@@ -1,9 +1,8 @@
 Field Name,Description,Type,Specifications,Default,Required,Unique,Key
-id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
-ticket_id,Foreign key referencing the ticket,Character,9 numeric characters,,No,No,FK
-author,Foreign key to the author (user),Character,9 numeric characters,,Yes,No,FK
-action_type,Type of the ticket action,Character,variable length,,No,No,
-action_level,level of the action,Character,variable length,,No,No,
-role_level,role_level of the author,Character,variable length,,No,No,
-action_body,Description of the action,Character,variable length,,No,No,
-action_time,Timestamp indication when the action was performed,Timestamp,MM/DD/YYYY HH:MM:SS,,Yes,No,
+ticket_id,Unique Ticket identification number,UUID,"128-bits, 36 characters (with dashes)",,Yes,Yes 
+author,Name of the author,Character,Variable length,,Yes,No
+action_type,Type of the ticket action,Character,variable length,,No,No
+description,Description of the action,Character,variable length,,No,No
+old_value,Previous value before the activity,Character,Variable length,,No,No 
+new_value,Value after the activity was performed,Character,Variable length,,No,No
+action_time,Timestamp indication when the action was performed,Timestamp,MM/DD/YYYY HH:MM:SS,,Yes,No
