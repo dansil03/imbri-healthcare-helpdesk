@@ -1,23 +1,19 @@
-Field Name,Description,Type,Specifications,Default,Required,Unique,Key
-id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
-workspace_id,Foreign key referencing the workspace,Character,9 numeric characters,,Yes ,No,FK
-asset_id,Foreign key referencing the asset,Character,9 numeric characters,,Yes ,No,FK
-organisation_id,Foreign key referencing the organisation,Character,9 numeric characters,,Yes,No,FK
-sla_id,Foreign key referencing the sla,Character,9 numeric characters,,No,No,FK
-issue_num,referencing to ticket_id of originating helpdesk application,Character,variable length,,Yes,No,
-reported_by,Name of the reporter of the ticket ,Character,variable length,,Yes,No,FK
-assignee_id,Foreign key referencing the Healthcare Agent,Character,9 numeric characters,,No,No,FK
-issue_type,issue_type of the ticket,Character,variable length,,Yes,No,
-description,description of the issue ,Character,variable length,,No,No,
-priority,priority level of the ticket,Character,variable length,,No,No,FK
-resolution,resolution description of the ticket ,Character,variable length,,No,No,FK
-ticket_status,status attribute of the ticket,Character,variable length,,Yes,No,FK
-created,Timestamp indicating when the record was created,Timestamp,MM/DD/YYYY HH:MM:SS,,Yes,No,
-created_by,Foreign key to the user who created the ticket ,Character,9 numeric characters,,Yes,No,FK
-updated,Timestamp indicating when the record was updated,Timestamp,MM/DD/YYYY HH:MM:SS,,No,No,
-updated_by,Foreign key to the user who updated the ticket ,Character,9 numeric characters,,No,No,FK
-due_date,Date indicating when the ticket should be resolved ,Date,MM/DD/YYYY,,Yes,No,
-resolution_date,Timestamp indicating when the ticket was actually resolved ,Timestamp,MM/DD/YYYY HH:MM:SS,,No,No,
-time_estimate,Estimated time for resolving the ticket,Character,Variable length ,,Yes,No,
-time_spent,Actual time spent on the ticket ,Character,Variable length ,,No,No,
+Field Name,Description,Type,Specifications,Default,Required,Unique
+ticket_id,Unique Ticket identification number,UUID,"128-bits, 36 characters (with dashes)",,Yes,Yes 
+issue_num,referencing to ticket_id of originating helpdesk application,Character,variable length,,Yes,No
+reported_by,Name of the reporter of the ticket ,Character,variable length,,Yes,No
+assignee_id,Unique User identification number of the agent assigned to the ticket,UUID,"128-bits, 36 characters (with dashes)",,Yes,Yes 
+issue_type,issue_type of the ticket,Character,variable length,,Yes,No
+description,description of the issue ,Character,variable length,,No,No
+priority,priority level of the ticket,Character,variable length,,No,No
+resolution,resolution description of the ticket ,Character,variable length,,No,No
+ticket_status,status attribute of the ticket,Character,variable length,,Yes,No
+created,Timestamp indicating when the record was created,Timestamp,MM/DD/YYYY HH:MM:SS,,Yes,No
+created_by,unique identification of the user who created the organization,UUID,"128-bits, 36 characters (with dashes)",,Yes,No
+updated,Timestamp indicating when the record was updated,Timestamp,MM/DD/YYYY HH:MM:SS,,No,No
+updated_by,unique identification of the user who updated the organization,UUID,"128-bits, 36 characters (with dashes)",,Yes,No
+due_date,Date indicating when the ticket should be resolved ,Date,MM/DD/YYYY,,Yes,No
+resolution_date,Timestamp indicating when the ticket was actually resolved ,Timestamp,MM/DD/YYYY HH:MM:SS,,No,No
+time_estimate,Estimated time for resolving the ticket,Character,Variable length ,,Yes,No
+time_spent,Actual time spent on the ticket ,Character,Variable length ,,No,No
 
