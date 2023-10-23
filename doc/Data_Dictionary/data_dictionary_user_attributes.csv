@@ -1,7 +1,5 @@
-Field Name,Description,Type,Specifications,Default,Required,Unique,Key
-id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
-user_id,Foreign key referencing the user,Character,9 numeric characters,,Yes,No,FK
-workspace_id,Foreign key referencing the workspace,Character,9 numeric characters,,Yes,No,FK
-attribute_name,Name of the user attribute,Character,variable length,,Yes,No,
-attribute_value,Value of the user attribute,Character,variable length,,Yes,No,
-lower_attribute_value,lower_attribute_value attribute of the entity,Character,variable length,,Yes,No,
+Field Name,Description,Type,Specifications,Default,Required,Unique
+user_id,Foreign key referencing the user,Character,9 numeric characters,,Yes,No
+attribute_name,Name of the user attribute,Character,variable length,,Yes,No
+attribute_value,Value of the user attribute,Character,variable length,,Yes,No
+
