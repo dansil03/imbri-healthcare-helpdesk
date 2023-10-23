@@ -1,14 +1,10 @@
-Field Name,Description,Type,Specifications,Default,Required,Unique,Key
-id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
-workspace_id,Foreign key referencing the workspace,Character,9 numeric characters,,Yes,No,FK
-organisation_id,Foreign key referencing the organisation,Character,9 numeric characters,,Yes,No,FK
-group_name,Name of the group,Character,variable length,,Yes,No,
-lower_group_name,lower_group_name attribute of the entity,Character,variable length,,Yes,No,
-created_date,Timestamp indicating when the record was created ,Timestamp,MM/DD/YYYY HH:MM:SS,,Yes,No,
-created_by,Foreign key to the user who created the group,Character,9 numeric characters ,,Yes,No,FK
-updated_date,Timestamp indicating when the record was updated,Timestamp,MM/DD/YYYY HH:MM:SS,,No,No,
-updated_by,Foreign key to the user who updated the group,Character,9 numeric characters ,,No,No,FK
-description,description of the group,Character,variable length,,No,No,
-lower_description,lower_description attribute of the entity,Character,variable length,,No,No,
-group_type,type of the group,Character,variable length,,Yes,No,
-external_id,id of the external group ,Character,9 numeric characters,,No,No,
+Field Name,Description,Type,Specifications,Default,Required,Unique
+group_id,Unique Group identification number,UUID,"128-bits, 36 characters (with dashes)",,Yes,Yes
+group_name,Name of the group,Character,variable length,,Yes,No
+created_date,Timestamp indicating when the record was created ,Timestamp,MM/DD/YYYY HH:MM:SS,,Yes,No
+created_by,Unique identification of the user who created the group,UUID,"128-bits, 36 characters (with dashes)" ,,Yes,No
+updated_date,Timestamp indicating when the record was updated,Timestamp,MM/DD/YYYY HH:MM:SS,,No,No
+updated_by,Unique identification of the user who updated the group,UUID,"128-bits, 36 characters (with dashes)" ,,Yes,No
+description,description of the group,Character,variable length,,No,No
+group_type,type of the group,Character,variable length,,Yes,No
+external_id,id of the external group ,Character,variable length,,No,No
