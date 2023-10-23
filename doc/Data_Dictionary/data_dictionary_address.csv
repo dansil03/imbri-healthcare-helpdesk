@@ -1,7 +1,7 @@
-Field Name,Description,Type,Specifications,Required,Unique
-line_1_number_building,Building number or name,Character,Variable length,Yes,No
-line_2_street_name,Street name,Character,Variable length,No,No
-line_3_area_locality,Area or locality,Character,Variable length,No,No
-town_city,Town or city name,Character,Variable length,Yes,No
-reference_id,"Identifier of the related entity (user, group, or organisation)","UUID,128-bits, 36 characters (with dashes)",Yes,No
-reference_type,"Type of the related entity (user, group, or organisation)","Character,Values: user, group, organisation",Yes,No
+Field Name,Description,Type,Specifications,Default,Required,Unique
+line_1_number_building,Building number or name,Character,Variable length,,Yes,No
+line_2_street_name,Street name,Character,Variable length,,No,No
+line_3_area_locality,Area or locality,Character,Variable length,,No,No
+town_city,Town or city name,Character,Variable length,,Yes,No
+reference_id,"Identifier of the related entity (user, group, or organisation)","UUID,128-bits, 36 characters (with dashes)",,Yes,No
+reference_type,"Type of the related entity (user, group, or organisation)","Character,Values: user, group, organisation",,Yes,No
