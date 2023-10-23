@@ -1,0 +1,4 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique
+user_id,Unique User identification number,UUID,"128-bits, 36 characters (with dashes)",,Yes,Yes 
+preference_name,Name of the preference,Character,Variable length,,Yes,No
+preference_value,Value of the preference,Character,Variable length,,Yes,No
