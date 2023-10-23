@@ -1,0 +1,8 @@
+Field Name,Description,Type,Specifications,Default,Required,Unique
+contact_id,Unique identifier for contact details,UUID,128-bits, 36 characters (with dashes),,Yes,Yes
+email,Email address of the contact,Character,Variable length,,No,Yes
+cell,Cellphone number of the contact,Character,Variable length based on country & carrier,,No,No
+phone,Telephone number of the contact,Character,Variable length based on country & carrier,,No,No
+fax,Fax number of the contact,Character,Variable length based on country & carrier,,No,No
+website,Website URL of the contact,Character,Variable length,,No,No
+social_media,Social media handle or link of the contact,Character,Variable length,,No,No
