@@ -1,5 +1,4 @@
-Field Name,Description,Type,Specifications,Default,Required,Unique,Key
-id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
-organisation_id,Foreign key referencing the organisation,Character,9 numeric characters,,Yes,No,FK
-attribute_name,Name of the organisation attribute,Character,variable length,,Yes,No,
-attribute_value,Value of the organisation attribute value,Character,variable length,,Yes,No,
+Field Name,Description,Type,Specifications,Default,Required,Unique
+organization_id,Unique Organisation identification number,UUID,"128-bits, 36 characters (with dashes)",,Yes,Yes
+attribute_name,Name of the organisation attribute,Character,variable length,,Yes,No
+attribute_value,Value of the organisation attribute value,Character,variable length,,Yes,No
