@@ -1,12 +1,12 @@
 Field Name,Description,Type,Specifications,Default,Required,Unique
 id,Unique User identification number,UUID,"128-bits, 36 characters (with dashes)",,Yes,Yes
 created_date,Time of creation ,Timestamp,MM/DD/YYYY HH:MM:SS,,Yes,No
-created_by,user_id of the creator ,Character,9 numeric characters,,Yes,No
+created_by,user_id of the creator ,UUID,"128-bits, 36 characters (with dashes)",,Yes,No
 updated_date,Time of user profile update,Timestamp,MM/DD/YYYY HH:MM:SS,,No,No
-updated_by,user_id of the user who updated the profile ,Character,9 numeric characters,,No,No
+updated_by,user_id of the user who updated the profile ,UUID,"128-bits, 36 characters (with dashes)",,No,No
 user_name,Assigned username ,Character,variable length,,No,No
 first_name,First name of the user ,Character,variable length,,No,No
-lower_first_name,lower_first_name attribute of the entity,Character,variable length,,No,No
 last_name,Last name of the user ,Character,variable length,,No,No
-lower_last_name,lower_last_name attribute of the entity,Character,variable length,,No,No
+preferred_language,preferred language of the user,Character,3 characters (ISO 639-2),eng,Yes,No
+
 
