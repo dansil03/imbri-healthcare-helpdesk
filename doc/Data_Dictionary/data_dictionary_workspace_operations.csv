@@ -1,4 +1,0 @@
-Field Name,Description,Type,Specifications,Default,Required,Unique,Key
-id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
-workspace_id,Foreign key referencing the workspace,Character,9 numeric characters,,Yes,No,FK
-operation_type,type of the operation,Character,variable length,,Yes,No,
