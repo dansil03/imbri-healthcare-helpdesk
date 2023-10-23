@@ -4,7 +4,7 @@ organization_type,"type of the organization (Healthcare institution, Vendor, Imb
 organization_name,Name of the organization,Character,variable length,,Yes,No
 created_date,Timestamp indicating when the record was created,Timestamp,MM/DD/YYYY HH:MM:SS,,Yes,No
 created_by,unique identification of the user who created the organization,UUID,"128-bits, 36 characters (with dashes)",,Yes,No
-updated_date,Timestamp indicating when the record was updated,Timestamp,MM/DD/YYYY HH:MM:SS,,No,No,
+updated_date,Timestamp indicating when the record was updated,Timestamp,MM/DD/YYYY HH:MM:SS,,No,No
 updated_by,unique identification of the user who updated the organization,UUID,"128-bits, 36 characters (with dashes)",,Yes,No
 
 
