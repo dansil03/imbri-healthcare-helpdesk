@@ -1,5 +1,4 @@
-Field Name,Description,Type,Specifications,Default,Required,Unique,Key
-id,Unique identification number,Character,9 numeric characters,,Yes,Yes,PK
-group_id,Foreign key referencing the group,Character,9 numeric characters,,Yes,No,FK
-attribute_name,Name of the group attribute,Character,variable length,,Yes,No,
-attribute_value,Value of the group attribute value,Character,variable length,,Yes,No,
+Field Name,Description,Type,Specifications,Default,Required,Unique
+group_id_id,Unique Group identification number,UUID,"128-bits, 36 characters (with dashes)",,Yes,Yes 
+attribute_name,Name of the group attribute,Character,variable length,,Yes,No
+attribute_value,Value of the group attribute value,Character,variable length,,Yes,No
